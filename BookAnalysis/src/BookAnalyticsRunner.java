@@ -2,7 +2,7 @@
 public class BookAnalyticsRunner {
 
 	public static void main(String[] args) {
-		BookAnalyticsChild book = new BookAnalyticsChild("C:\\Users\\Lohani\\Desktop\\ApCSWorkspace\\BookAnalysis\\src\\TheRaven.txt", "C:\\Users\\Lohani\\Desktop\\ApCSWorkspace\\BookAnalysis\\src\\NewRaven.txt");
+		BookAnalyticsChild book = new BookAnalyticsChild(/*source*/, /*destination*/);
 		//System.out.println(book.toString());
 		String[] wordsToBeReplaced= {"raven", "more", "lenore"};
 		String[] wordsToReplaceWith= {"crow", "less", "bob the builder"};
